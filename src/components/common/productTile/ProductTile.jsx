@@ -14,7 +14,7 @@ class ProductTile extends Component {
       <div className="card h-100" onClick={this.navigateToDetail.bind(this)}>
         <article className="">
           {
-            this.props.product.discount>=20?(<div className="best-seller">Best Selling</div>):''
+            this.props.product.discount>=20?(<div className="best-seller">Best Selling</div>):(<div className="best-seller-dummy"></div>)
           }
           <div className="slds-card__body slds-card__body_inner">
             <img src={this.props.product.imageUrl} className="card-img-top" alt="Prodcut Loading"/>
