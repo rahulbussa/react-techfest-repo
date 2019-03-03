@@ -8,7 +8,7 @@ export const UPDATE_QTY = 'UPDATE_QTY';
 
 export const APPLY_FILTER = 'APPLY_FILTER';
 
-export const baseURI = 'http://localhost:4567';
+export const baseURI = 'https://fest-be-angular-fest.7e14.starter-us-west-2.openshiftapps.com';
 
 export const productsAPI = baseURI + '/api/product';
 
